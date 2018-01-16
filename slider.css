@@ -36,6 +36,7 @@ ul#slider li
 overflow:hidden;
    max-height: 700px;
   min-height:700px;
+	position:relative;
 
 
 
