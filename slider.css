@@ -22,8 +22,8 @@ ul#slider
   overflow:hidden;
   max-height: 700px;
   min-height:700px;
-	position:relative;
-	border:2px solid red;
+position:relative;
+border:2px solid red;
 
 }
 
@@ -49,23 +49,6 @@ ul#slider li:target
 	animation-name: example;
 	animation-duration: 2s;
 	z-index:100;
-
-}
-
-ul#slider li:target 
-{
-
-
-
-}
-
-
-
-ul#slider li:not(:target) 
-{
-	
-
-
 
 }
 
@@ -204,8 +187,9 @@ ul#slider li:target a.gallery-nav-button-center
   position:absolute;
   min-width:100%;
   display:block;
-  z-index:100;
+  z-index:1000;
   top:0;
+	background:red;
 
 }
 
