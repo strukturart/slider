@@ -190,6 +190,21 @@ background:red;
 
 }
 
+
+a.gallery-nav-button-center:hover
+{
+  width:50%;
+  height:100%;
+background:red;
+	
+  position:absolute;
+  min-width:100%;
+  display:block;
+  z-index:1000;
+  top:0;
+
+}
+
 ul#slider li:target a.gallery-nav-button-center
 {
   //background:none;
