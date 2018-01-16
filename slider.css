@@ -1,0 +1,239 @@
+/*/////////////////////////////////////////*/
+/* G A L L E R Y */
+
+
+@keyframes example {
+    from {
+      opacity:0.7;
+
+
+    }
+    to {
+      opacity:1;
+    
+
+    }
+}
+
+
+
+ul#slider
+{
+  overflow:hidden;
+  max-height: 700px;
+  min-height:700px;
+
+}
+
+ul#slider li
+{
+
+
+
+ min-width:100%;
+overflow:hidden;
+   max-height: 700px;
+  min-height:700px;
+
+
+
+}
+
+
+ul#slider li:target 
+{
+	min-width:100%;
+	display:block;
+	animation-name: example;
+	animation-duration: 2s;
+	z-index:100;
+
+}
+
+ul#slider li:target 
+{
+
+
+
+}
+
+
+
+ul#slider li:not(:target) 
+{
+	
+
+
+
+}
+
+
+
+ul#slider li a  
+{
+
+ min-width:100%;
+
+
+}
+
+ul#slider li a  img
+{
+	min-height:100%;
+	max-height:100%;
+	min-width:100%;
+	margin:100px 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+ul#slider li a.gallery-nav-button
+{
+	position:absolute;
+	display:block;
+	top:95%;
+	left:20px;
+	z-index:1000!Important;
+	padding: 0px 0px 0 0px;
+	overflow: hidden;
+	min-width: 15px!Important;
+	min-height: 15px!Important;
+	max-width: 15px!Important;
+	max-height: 15px!Important;
+	border-radius:15px;
+	background:black;
+}
+
+
+
+ul#slider li a span
+{
+
+  color:black;
+  font-size:0.7rem;
+  font-weight: 100;
+  background:red;
+
+
+}
+
+
+
+
+
+ul#slider li:target img 
+{
+
+ 
+  min-width:100%
+  
+
+
+
+
+}
+
+
+
+
+
+
+
+ul#slider li:target > a.gallery-nav-button
+{
+
+ 
+  background:silver;
+  
+
+
+
+
+}
+
+
+a.gallery-nav-button:hover
+{
+ 
+  background:silver!Important;
+  
+}
+
+
+
+
+a.gallery-nav-button-center
+{
+  width:50%;
+  height:100%;
+}
+
+ul#slider li:target a.gallery-nav-button-center
+{
+  background:none;
+  position:absolute;
+  min-width:100%;
+  display:block;
+  z-index:100;
+  top:0;
+
+}
+
+
+
+
+ul#slider img.only-mobile
+{
+  display:none;
+}
+
+
+
+/*
+  
+   ___   ___   ___  
+  / _ \ / _ \ / _ \ 
+ | (_) | | | | | | |
+  \__, | | | | | | |
+    / /| |_| | |_| |
+   /_/  \___/ \___/ 
+                    
+                    
+
+
+
+*/
+                   
+
+@media screen and (min-width: 0px) and (max-width: 900px){
+
+
+
+ul#slider
+{
+  overflow:hidden;
+  max-height: 280px;
+  min-height:280px;
+
+}
+
+ul#slider li a  img
+{
+  min-height:100%;
+max-height:100%;
+min-width:100%;
+margin:10px 0;
+
+}
+
+
+}
