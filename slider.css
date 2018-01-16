@@ -179,6 +179,15 @@ a.gallery-nav-button-center
 {
   width:50%;
   height:100%;
+background:red;
+	
+	background:none;
+  position:absolute;
+  min-width:100%;
+  display:block;
+  z-index:1000;
+  top:0;
+
 }
 
 ul#slider li:target a.gallery-nav-button-center
@@ -189,7 +198,6 @@ ul#slider li:target a.gallery-nav-button-center
   display:block;
   z-index:1000;
   top:0;
-	background:red;
 
 }
 
