@@ -96,7 +96,7 @@ ul#slider li a  img
 
 
 
-ul#slider li a.gallery-nav-button
+ul#slider li a.gallery-nav-button-1
 {
 	position:absolute;
 	display:block;
@@ -112,6 +112,25 @@ ul#slider li a.gallery-nav-button
 	border-radius:15px;
 	background:black;
 }
+
+ul#slider li a.gallery-nav-button-2
+{
+	position:absolute;
+	display:block;
+	top:95%;
+	left:40px;
+	z-index:1000!Important;
+	padding: 0px 0px 0 0px;
+	overflow: hidden;
+	min-width: 15px!Important;
+	min-height: 15px!Important;
+	max-width: 15px!Important;
+	max-height: 15px!Important;
+	border-radius:15px;
+	background:black;
+}
+
+
 
 
 
