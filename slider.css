@@ -22,7 +22,6 @@ ul#slider
   overflow:hidden;
   max-height: 700px;
   min-height:700px;
-position:relative;
 border:2px solid red;
 
 }
@@ -36,7 +35,6 @@ ul#slider li
 overflow:hidden;
    max-height: 700px;
   min-height:700px;
-	position:relative;
 
 
 
